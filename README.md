@@ -5,7 +5,6 @@ I've designed a minimalistic API gateway (using native Java libraries) that inco
 
 1. Extensibility: It is compatible with any API that supports GET requests and that doesn't require authentication. This can be done by simply adding the endpoint and context mapping to the Constants class.
 Example: mapping.put("/wiki", "http://en.wikipedia.org/w/api.php?");
-
 The context is a unique string for every endpoint. I chose not to send the endpoint as part of the GET request to minimize complexity at the client side and for ease of testing. The GET parameters are appended to the endpoint as is the norm. 
 
 2. Analytics: The info context returns the hit count for each endpoint presented as an html table.  
