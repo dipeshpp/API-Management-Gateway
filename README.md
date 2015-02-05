@@ -1,4 +1,4 @@
-# API-Management-Gateway-
+# API Management Gateway
 
 DESIGN AND IMPLEMENTATION:
 
