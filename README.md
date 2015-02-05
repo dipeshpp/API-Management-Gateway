@@ -16,7 +16,7 @@ Usage: http://localhost:8080/info
 
 RUNNING:
 
-The source code can be executed directly and doesn't require any command-line parameters.
+The project can be imported into Eclipse and the source code can be compiled & executed without any command-line parameters.
 ProxyServer.java contains the main function.
 The HTTP server runs on port 8080 by default. This can be changed in the Constants class.
 The Wikipedia endpoint is preconfigured as a constant.
